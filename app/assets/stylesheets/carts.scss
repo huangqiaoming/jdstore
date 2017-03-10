@@ -54,9 +54,10 @@ div.cartProducts-title{
 label.cartProducts-title-msg,label.cartProducts-title-price,label.cartProducts-title-quantity,label.cartProducts-title-total,label.cartProducts-title-operation{
   height:45px;
   line-height: 45px;
-  font-weight:200;
+  font-weight:400;
   width:19%;
   text-align: center;
+  margin-left: 3px;
 }
 
 
@@ -73,9 +74,10 @@ label.cartProducts-title-msg,label.cartProducts-title-price,label.cartProducts-t
 .cartProduct-image, .cartproduct-price, .cartproduct-quantity, .cartproduct-removal, .cartproduct-line-price{
   width: 19%;
   text-align:center;
-  height:113px;
+  height:112px;
   color: black;
-  display: inline-block;
+  display: inline-block;/* 确保同一行内展示 */
+
 }
 .checkout{
   background-color: #EBEEF3;
@@ -87,6 +89,7 @@ label.cartProducts-title-msg,label.cartProducts-title-price,label.cartProducts-t
 .total-price{
   float:right;
   font-size: 1.5em;
-  margin-right:15px;
+  margin-right:20px;
   margin-top:10px;
+  font-weight: 400;
 }

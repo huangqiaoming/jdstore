@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-root 'welcome#index'
+root 'landing_page#index'
 devise_for :users
   namespace :admin do
     resources :products
