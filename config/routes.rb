@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
 root 'landing_page#index'
-resources :welcome 
+resources :welcome
 devise_for :users
   namespace :admin do
     resources :products
@@ -13,7 +13,7 @@ devise_for :users
      end
    end
   end
-
+resources :contacts
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 resources :products do
   member do

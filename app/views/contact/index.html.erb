@@ -1,0 +1,29 @@
+<div id="contact" class="container-fluid bg-grey">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact us and we'll get back to you within 24 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>GuangZhou, China</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 020 15802010183</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> johnsonlee28@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <%= simple_form_for @contact do |f| %>
+        <div class="col-sm-6 form-group">
+          <%= f.input :name, :input_html => {:class => "form-control"} %>
+        </div>
+        <div class="col-sm-6 form-group">
+          <%= f.input :email, :input_html => {:class => "form-control"} %>
+        </div>
+      </div>
+      <%= f.input :comment, :input_html => {:class => "form-control"} %>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <%= f.submit "Send", :disable_with => 'Submitting...', :class => "btn btn-default pull-right" %>
+        </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>

@@ -42,6 +42,7 @@ gem 'fog'
 gem 'ransack'
 gem 'will_paginate'
 gem 'seo_helper'
+gem 'intercom-rails'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
