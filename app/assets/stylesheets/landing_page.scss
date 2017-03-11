@@ -1,0 +1,203 @@
+
+/* main-banner */
+#main-banner{
+  margin-top:-20px;
+  background-image:linear-gradient(rgba(21, 8, 7, 0.1), rgba(0, 0, 0, 0.1)), url('https://ww3.sinaimg.cn/large/006tKfTcgy1fdhnm492h5j30xc0ieqm4.jpg');
+  background-size: cover;
+  height:600px;
+  width:100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+
+}
+.lplh-58{
+  margin-left:40px;
+  text-align: center;
+  padding-top:150px;
+  z-index: 10;
+
+}
+.lplh-22{
+  margin-top:35px;
+}
+
+#lp-pom-button-16 {
+  display:block;
+  border-style:solid;
+  behavior:url(/PIE.htc);
+  border-radius:3px;
+  left:359px;
+  top:370px;
+  z-index:2;
+  width:268px;
+  height:56px;
+  background:rgba(214,62,75,1);
+  -pie-background:rgba(214,62,75,1);
+  box-shadow:none;
+  text-shadow:none;
+  color:#fff;
+  border-width:1px;
+  border-color:#8f2831;
+  font-size:38px;
+  line-height:50px;
+  font-weight:bold;
+  font-family:PT Sans;
+  text-align:center;
+  background-repeat:no-repeat;
+  padding: 0;
+  margin: 0;
+  margin-top:70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lp-pom-button-16:hover {
+  background:rgba(203,47,58,1);
+  -pie-background:rgba(203,47,58,1);
+  box-shadow:none;
+  color:#fff;
+  text-decoration: none;
+}
+
+
+/* promise */
+#promise-title {
+  display:block;
+  border-style:none;
+  border-radius:0px;
+  text-align: center;
+  color: #666666;
+  padding: 40px 0px;
+}
+
+#lp-pom-text-23{
+  display:block;
+  width:630px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30px;
+  font-weight: 300;
+}
+.prove{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:50px;
+}
+.pic{
+  width:400px;
+  height:350px;
+  display: block;
+  overflow: hidden;
+  margin-bottom: 100px;
+  img{
+    width:100%;
+    width:380px;
+    height:220px;
+    text-align: center;
+  }
+  p{
+    font-size: 20px;
+    padding:20px;
+    color: #36B3A8;
+  }
+}
+.thumb{
+  text-align: center;
+  div{
+    color: #666;
+    text-align: center;
+    width: 260px;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
+/* prove */
+.comment-content{
+  p{
+    float:left;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+.thumb-img{
+  float:right;
+  width:80px;
+  height:80px;
+  overflow: hidden;
+  img{
+    width: 70px;
+    height: 70px;
+    border:5px solid #EEEEEE;
+  }
+}
+
+.commentIcon{
+  width:19%;
+  float: left;
+}
+.commentContent-1{
+  width:30%;
+  float: left;
+}
+.prove-comment{
+  margin-top:90px;
+}
+
+/* sub-banner */
+#sub-banner{
+  margin-top:70px;
+  background-image:linear-gradient(rgba(21, 8, 7, 0.1), rgba(0, 0, 0, 0.1)), url('https://ww3.sinaimg.cn/large/006tKfTcgy1fdhnm492h5j30xc0ieqm4.jpg');
+  background-size: cover;
+  height:300px;
+  width:100%;
+  background-repeat: no-repeat;
+
+}
+.sub-title{
+  text-align: center;
+  width:750px;
+  color:white;
+  padding-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lp-pom-button-17 {
+  display:block;
+  border-style:solid;
+  behavior:url(/PIE.htc);
+  border-radius:3px;
+  left:359px;
+  top:370px;
+  z-index:2;
+  width:268px;
+  height:56px;
+  background:rgba(214,62,75,1);
+  -pie-background:rgba(214,62,75,1);
+  box-shadow:none;
+  text-shadow:none;
+  color:#fff;
+  border-width:1px;
+  border-color:#8f2831;
+  font-size:38px;
+  line-height:50px;
+  font-weight:bold;
+  font-family:PT Sans;
+  text-align:center;
+  background-repeat:no-repeat;
+  padding: 0;
+  margin: 0;
+  margin-top:70px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#lp-pom-button-17:hover {
+  background:rgba(203,47,58,1);
+  -pie-background:rgba(203,47,58,1);
+  box-shadow:none;
+  color:#fff;
+  text-decoration: none;
+}

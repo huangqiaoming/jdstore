@@ -12,9 +12,9 @@ class ProductsController < ApplicationController
      if @product.iwasher?
        render 'products/_iwasher'
      elsif @product.ilife?
-       render 'products/ilife'
+       render 'products/_ilife'
      elsif @product.mi?
-       render 'products/mi'
+       render 'products/_mi'
      end
 
   end
