@@ -1,0 +1,20 @@
+// Place all the styles related to the contacts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.contact-form{
+  margin: 50px 30px;
+  min-height: 560px;
+  padding:20px;
+  box-shadow: 10px 10px 50px 20px #E0E0E0 inset;
+  border-top-left-radius:60px;
+  border-top-right-radius:60px;
+  border-bottom-left-radius:60px;
+  border-bottom-right-radius:60px;
+
+}
+
+.text-center{
+  margin-top:50px;
+  margin-bottom: 80px;
+}

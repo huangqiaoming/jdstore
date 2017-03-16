@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
 root 'landing_page#index'
-resources :welcome 
+resources :welcome
+
 devise_for :users
   namespace :admin do
     resources :products
@@ -26,6 +27,8 @@ resources :products do
   put :favorite, on: :member
 
 end
+
+resources :contacts
 
 
 resources :favorite do
