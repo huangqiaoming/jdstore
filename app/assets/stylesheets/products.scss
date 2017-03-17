@@ -2,6 +2,10 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+/*5种背景颜色*/
+
+
 /*  商品展示  */
 .show-title {
   float:left;
@@ -369,6 +373,37 @@ span.new {
     height: 70px;
   }
 }
+
+.productDescription {
+	width: 1200px;
+  text-align: center;
+	margin: 20px auto;
+	border: 1px solid #50514F;
+  line-height: 30px;
+}
+
+.productDescription-menuList {
+	height: 35px;
+}
+
+.productDescription-menuList-item {
+	float: left;
+	width: 175px;
+	height: 35px;
+}
+
+.productDescription-content {
+	width: 750px;
+  height: 500px;
+	margin: 50px auto;
+}
+
+.productDescription-content-item {
+  display: none;
+  width: 750px;
+  height: 500px;
+}
+
 
 /*主推商品头部位置*/
 .menu{

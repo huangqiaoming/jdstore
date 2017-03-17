@@ -24,9 +24,7 @@
        <div class="productDetail-left-imageList">
          <% if @photos.present? %>
           <% @photos.each_with_index do |p, index| %>
-           <% if index == 0 %>
-             <div class="productDetail-left-imageList-item active bg-color4">
-           <% elsif index == 4 %>
+           <% if index == 4 %>
              <div class="productDetail-left-imageList-item last-item">
            <% else %>
              <div class="productDetail-left-imageList-item bg-color4">
@@ -39,6 +37,8 @@
          <% end %>
        </div>
     </div>
+
+
   <div class="productDetail-right bg-color2">
      <h3 class="product-title"><%= @product.title %></h3>
      <p class="product-info"> <%= @product.description %></p>
@@ -57,5 +57,17 @@
        <%= link_to("加入购物车", add_to_cart_product_path(@product),method: :post, :class => "btn btn-lg btn-danger") %>
      </div>
   </div>
+</div>
+  <div class="productDescription">
+    <div class="productDescription-menuList bg-color1">
+      <div class="productDescription-menuList-item bg-color2">选项卡1</div>
+      <div class="productDescription-menuList-item bg-color3">选项卡2</div>
+    </div>
+    <div class="productDescription-content">
+      <div class="productDescription-content-item bg-color4" style="display:block;">内容1</div>
+      <div class="productDescription-content-item bg-color5" style="display:block;">内容2</div>
+    </div>
+  </div>
 
-
+</div>
+</div>
