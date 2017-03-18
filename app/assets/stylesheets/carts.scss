@@ -42,9 +42,17 @@ p.cart-item-desc{
 
 /* cartProduct */
 
+.cartProducts{
+  border: 1px solid #ccc;
+  box-shadow: 3px 3px 2px #ccc;
+  transition: 0.5s;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top:50px;
+}
+
 .cartProduct-list{
   border:1px solid #e8e8e8;
-  margin-top:50px;
 }
 
 div.cartProducts-title{
@@ -71,7 +79,15 @@ label.cartProducts-title-msg,label.cartProducts-title-price,label.cartProducts-t
 
 }
 
-.cartProduct-image, .cartproduct-price, .cartproduct-quantity, .cartproduct-removal, .cartproduct-line-price{
+.cartproduct-price, .cartproduct-quantity, .cartproduct-removal, .cartproduct-line-price{
+  width: 19%;
+  text-align:center;
+  height:112px;
+  color: black;
+  display: inline-block;/* 确保同一行内展示 */
+}
+
+.cartProduct-image{
   width: 19%;
   text-align:center;
   height:112px;
@@ -84,7 +100,7 @@ label.cartProducts-title-msg,label.cartProducts-title-price,label.cartProducts-t
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding:20px;
-  margin-bottom:10px;
+
 }
 .total-price{
   float:right;
