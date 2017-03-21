@@ -1,4 +1,4 @@
-<div class="row">
+<div class="container-fluid" style="padding:20px;">
   <div class="col-md-12">
 <h2> 购物明细 </h2>
 
@@ -54,7 +54,7 @@
 <div class="form-group col-lg-6">
   <%= f.input :shipping_address %>
 </div>
-<div class="checkout">
+<div class="checkoutform">
   <%= f.submit "生成订单", class: "btn btn-lg btn-danger pull-right", data: { disable_with: "Submiting..."}%>
 </div>
 <% end %>
